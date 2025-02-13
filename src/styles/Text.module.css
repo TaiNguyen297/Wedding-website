@@ -1,0 +1,45 @@
+.title {
+    font-weight: bold;
+    font-size: min(8vw, 8vh);
+    font-family: 'Great Vibes', cursive;
+    color: #333333;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+.sub1, .sub1Count {
+    font-weight: bold;
+    font-size: min(3vw, 3vh);
+    font-family: "Coiny", cursive;
+}
+
+.sub1 {
+    margin: auto;
+    padding: auto;
+}
+
+.sub2, .sub3, .sub3Count{
+    font-family: "Borel", cursive;
+}
+
+.sub2 {
+    font-size: min(2vw, 2vh);
+    margin-top: 5px;
+    line-height: 1.5;
+}
+
+.sub3 {
+    font-size: min(1.5vw, 1.5vh);
+    line-height: 1;
+}
+
+.sub3Count {
+    font-size: min(1.5vw, 1.5vh);
+}
+
+.wedding {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

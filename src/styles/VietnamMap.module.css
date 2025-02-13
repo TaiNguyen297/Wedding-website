@@ -1,0 +1,23 @@
+.vietnam svg {
+  align-items: center;
+}
+
+.vietnam path {
+  fill: rgb(161, 161, 161);
+  stroke: #333333;
+  stroke-width: 1;
+  transition: fill 0.3s ease;
+}
+
+.vietnam path[data-highlight="true"] {
+  fill: #fa913b;
+  transition: fill 0.3s ease;
+}
+
+.vietnam path[data-highlight="true"]:hover {
+  fill: #fda6a6;
+}
+
+.hoveredProvince {
+  fill: #fda6a6 !important;
+}
